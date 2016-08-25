@@ -44,7 +44,11 @@
             {{/if}}
 
         </footer>
-        <div id="disqus_thread"></div>
+
+        {{/post}}
+
+        {{comments-disqus}}
+          <div id="disqus_thread"></div>
     <script>
         var disqus_shortname = 'code-space-jam ';
         var disqus_config = function() {
@@ -65,10 +69,6 @@
 
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
     powered by Disqus.</a></noscript>
-
-        {{/post}}
-
-        {{comments-disqus}}
         {{!> comments-facebook}}
         {{!> comments-google-plus}}
 
