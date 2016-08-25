@@ -64,7 +64,7 @@ config = {
       contentPath: path.join(__dirname, '/content/')
     }
   },
-
+forceAdminSSL: true,
   // Development
   development: {
     url: 'https://localhost:2368',
